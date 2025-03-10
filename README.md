@@ -1,6 +1,6 @@
 # Galeria
 
-![](./Captura%20de%20Tela%202025-03-10%20às%2008.00.57.png)
+![](./Captura%20de%20Tela%202025-03-10%20às%2010.13.05.png)
 Uma galeria utilizando o método Flex
 ## Tecnologias
 *HTML
