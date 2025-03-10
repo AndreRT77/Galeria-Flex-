@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+header {
+    height: 100px;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.Galeria {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(128, 0, 0);
+    display: flex;
+}
+
+.fotos {
+    width: 25%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.container-direita {
+    height: 100%;
+    flex-grow: 1;
+    border: 2px solid#fff;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-superior {
+    flex-grow: 1;
+    background-color: #000095;
+    display: flex;
+}
+
+.container-superior-esquerdo {
+    flex-grow: 1;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-superior-esquerdo .fotos {
+    background-color: rgb(65, 62, 62);
+    height: 50%;
+    width: 50%;
+}
+
+.container-superior-esquerdo .fotos:nth-of-type(1) {
+    width: 100%;
+}
+
+.container-superior>.fotos {
+    width: 33%;
+}
+
+.container-inferior {
+    flex-grow: 1;
+    background-color: rgb(93, 0, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container-inferior .fotos {
+    background-color: #546;
+    width: 33.5%;
+    height: 50%;
+}
+
+.container-inferior .fotos:nth-of-type(3) {
+    height: 100%;
+    width: 66.5%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 4rem;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dev {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.fotos img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.foto1 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto2 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto3 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto4 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto5 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto6 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto7 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto8 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.foto9 {
+    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
