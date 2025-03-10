@@ -65,7 +65,6 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-
 .container-superior-esquerdo .fotos {
     background-color: rgb(65, 62, 62);
     height: 50%;
@@ -79,13 +78,13 @@ main {
 .container-superior>.fotos {
     width: 33%;
 }
-
 .container-inferior {
     flex-grow: 1;
     background-color: rgb(93, 0, 255);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 
 .container-inferior .fotos {
@@ -131,43 +130,44 @@ footer {
     background-position: center;
 }
 .foto2 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/46782-the-phantom-of-the-opera-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .foto3 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/47104-the-crow-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .foto4 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/48113-van-helsing-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .foto5 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/48454-bram-stoker-s-dracula-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .foto6 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/50017-the-addams-family-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+
 }
 .foto7 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/pCj8zem1NDAODdtvha9WFEB6iWR-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 .foto8 {
-    background-image: url(./img/45099-the-hunger-0-2000-0-3000-crop.jpg);
+    background-image: url(./img/zEwEXGDvJ8Ou2s6XbLMPvMTX53S-0-2000-0-3000-crop.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
